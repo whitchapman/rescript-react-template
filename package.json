@@ -6,7 +6,10 @@
     "build": "rescript",
     "build:deps": "rescript build -with-deps",
     "build:watch": "rescript build -w",
-    "clean": "rescript clean -with-deps"
+    "clean": "rescript clean -with-deps",
+    "start": "vite",
+    "preview": "vite preview",
+    "release": "vite build"
   },
   "keywords": [
     "rescript"
